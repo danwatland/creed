@@ -1,0 +1,5 @@
+--require @babel/register
+--require test/setup-mocha.js
+--file test/test-teardown.js
+--recursive
+test/**/*.spec.js
